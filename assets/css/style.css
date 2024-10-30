@@ -1,0 +1,53 @@
+@charset "utf-8"; 
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e1e1e;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.clock-container {
+  text-align: center;
+}
+  
+#time {
+  font-size: 4em;
+  margin-bottom: 10px;
+}
+  
+#alarm-time {
+  font-size: 1.2em;
+  color: #888;
+  margin-bottom: 20px;
+}
+  
+.controls {
+  display: flex;
+  gap: 10px;
+}
+  
+input[type="number"] {
+  width: 60px;
+  padding: 10px;
+  font-size: 1em;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+}
+  
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #1db954;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
